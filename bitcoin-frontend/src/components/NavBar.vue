@@ -2,17 +2,18 @@
   <v-toolbar theme="dark" flat>
     <v-toolbar-title>Bitcoin</v-toolbar-title>
     <v-toolbar-items>
-      <v-btn flat>
-        <span>Sign out</span>
-      </v-btn>
-      <v-btn flat>
-        <span>Sign out</span>
-      </v-btn>
       <DropDown />
       <v-btn flat>
         <span>Sign out</span>
       </v-btn>
+      <v-btn flat>
+        <span>Sign out</span>
+      </v-btn>
+      <v-btn flat>
+        <span>Sign out</span>
+      </v-btn>
     </v-toolbar-items>
+    <v-spacer></v-spacer>
   </v-toolbar>
 </template>
 
