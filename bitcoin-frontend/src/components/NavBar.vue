@@ -8,9 +8,7 @@
       <v-btn flat>
         <span>Sign out</span>
       </v-btn>
-      <v-btn flat>
-        <span>Sign out</span>
-      </v-btn>
+      <DropDown />
       <v-btn flat>
         <span>Sign out</span>
       </v-btn>
@@ -19,7 +17,12 @@
 </template>
 
 <script>
-export default {};
+import DropDown from "./DropDown.vue";
+export default {
+  components: {
+    DropDown,
+  },
+};
 </script>
 
 <style></style>
